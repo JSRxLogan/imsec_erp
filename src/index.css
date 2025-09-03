@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@media (hover: hover) and (pointer: fine) {
+  .btn-hover:hover {
+    background-color: #2f4589; /* your hover color */
+  }
+}
+
+/* Force thin scrollbar everywhere */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
