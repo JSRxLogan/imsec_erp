@@ -1,0 +1,7 @@
+This file includes the latest updates that are made and by whom
+
+Manan Sehgal (2-10-2025) {
+    Edited SideBar and decreased the number of options according to the desired output.
+    Made Pages Folder and used it for Uploading timetable pages.
+    Added timetable Components in Components folder.
+}
