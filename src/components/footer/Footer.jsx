@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="w-full flex items-center bg-[#f3f3f3] py-4 md:py-0 md:h-16">
+    <footer className="w-full flex items-center my-2 bg-[#f3f3f3] py-4 md:py-0 md:h-16">
       <div className="container mx-auto px-6">
         {/* Desktop Layout */}
         <div className="hidden md:flex items-center justify-between">
