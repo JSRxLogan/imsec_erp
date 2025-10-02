@@ -70,7 +70,7 @@ const Header = () => {
                                    font-bold px-2 py-2 rounded-md transition-colors
                                    bg-[#253973] text-[#f1f1f1]
                                    active:bg-[#1a2a59] 
-                                   ${isDropdownOpen ?'bg-[#1a2a5a] text[fffff]' : 'bg-[#253973]'} 
+                                   ${isDropdownOpen ? 'bg-[#1a2a5a] text[fffff]' : 'bg-[#253973]'} 
                                    btn-hover
                                  `}
                     >
@@ -79,7 +79,7 @@ const Header = () => {
                     </button>
 
                     {isDropdownOpen && (
-                        <div className="absolute right-0 top-full mt-1 w-48 bg-[#ffc839] rounded-md shadow-lg z-50">
+                        <div className="absolute right-0 top-full mt-1 w-48 bg-[#ffc839] rounded-md shadow-lg z-[60]">
                             <div className="py-1">
                                 <button className="w-full text-left px-4 py-2 text-[#253973] hover:bg-[#e6b432] transition-colors border-b-2 border-gray-400">
                                     Change Password

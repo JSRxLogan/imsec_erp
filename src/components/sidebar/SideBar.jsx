@@ -160,7 +160,7 @@ const SideBar = ({ openSideBar }) => {
             {isMobile && isMobileExpanded && (
                 <>
 
-                    <div className=" h-full w-full bg-white z-50 transform transition-transform duration-300 ease-in-out md:hidden">
+                    <div className=" h-screen w-full bg-white z-50 transform transition-transform duration-300 ease-in-out md:hidden">
                         <div 
                         className="p-4 border-b border-gray-200 flex justify-between items-center"
                         onClick={() => {dispatch(Collapse())/* Dispatch action to close sidebar */}}
@@ -174,7 +174,7 @@ const SideBar = ({ openSideBar }) => {
                             </button>
                         </div>
 
-                        <nav className="mt-4 h-[calc(100%-4rem)] overflow-y-auto">
+                        <nav className=" h-[calc(100%-4rem)] overflow-y-auto">
                             {sidebarOptions.map((option, index) => (
                                 <div key={index}>
                                     <div
